@@ -165,7 +165,7 @@ Run the graphical interface using:
 python chatbot_gui.py
 
   ```
-## Training Details##
+## Training Details ##
 
 The chatbot model is trained on a supervised dataset (`intents.json`) containing user intents, sample patterns, and corresponding responses. The training process includes:
 
