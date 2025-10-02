@@ -147,8 +147,6 @@ python app.py
 
 - **Commands to end the conversation:** `bye`, `quit`, `exit`
 
-  ```
-
 **Example Interaction:**
 
 You: Hi
