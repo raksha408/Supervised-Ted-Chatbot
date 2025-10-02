@@ -148,7 +148,7 @@ python app.py
 - **Commands to end the conversation:** `bye`, `quit`, `exit`
 
 **Example Interaction:**
-
+```
 You: Hi
 Bot: Hey there! What can I do for you?
 You: How to start a startup?
@@ -156,6 +156,7 @@ Bot: Starting a business requires careful planning and market research...
 You: bye
 Bot: Goodbye!
 
+```
 ## 2. GUI Interface (Tkinter) ##
 
 Run the graphical interface using:
