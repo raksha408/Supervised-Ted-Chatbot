@@ -128,7 +128,9 @@ pip install -r requirements.txt
 
 4. Ensure the trained model (chatbot_model.h5), vectorizer (vectorizer.pkl), and encoder (label_encoder.pkl) are in the data/ folder.
 
-## Usage
+  ```
+
+## Usage ##
 
 ### 1. Console Interface
 
@@ -152,14 +154,16 @@ Bot: Starting a business requires careful planning and market research...
 You: bye
 Bot: Goodbye!
 
-## 2. GUI Interface (Tkinter)
+  ```
+## 2. GUI Interface (Tkinter) ##
 
 Run the graphical interface using:
 
 ```bash
 python chatbot_gui.py
 
-## Training Details
+  ```
+## Training Details##
 
 The chatbot model is trained on a supervised dataset (`intents.json`) containing user intents, sample patterns, and corresponding responses. The training process includes:
 
@@ -206,13 +210,14 @@ Bot: Starting a business requires careful planning and market research...
 You: bye
 Bot: Goodbye!
 
+  ```
 ## Conclusion
 
 The supervised Ted! Chatbot effectively identifies user intents and generates appropriate responses. By combining TF-IDF vectorization, neural network classification, and random oversampling, the chatbot achieves high accuracy and handles class imbalance efficiently. The Tkinter GUI enhances user interaction, providing a visually intuitive chat experience.
 
 ---
 
-## Future Work
+## Future Work##
 
 - Introduce contextual understanding for multi-turn conversations.  
 - Integrate voice input and output for a more natural conversational interface.  
