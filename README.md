@@ -49,30 +49,25 @@ This project can serve as a foundation for customer support automation, personal
 # Folder Structure - Chatbot Project
 
 **Supervised-Ted-Chatbot/**  
-Main project directory containing all code, data, models, and resources.
+Main project directory containing all code, data, models, and results.
 
 ---
 
-## 1. Data & Resources
+## 1. Data
 **data/**  
-Contains datasets and scripts related to preprocessing and model training.
+Contains sample intent.json dataset. 
 
 - `intents.json` → Sample dataset containing intents, patterns, and responses.  
+
+---
+
+## 2. Code
 - `preprocess.py` → Script for text preprocessing (tokenization, stemming, cleaning).  
 - `model.py` → Script to define and train the neural network model.  
 - `app.py` → Main application script to run the chatbot (console or GUI).  
 - `chatbot_model.h5` → Trained Keras model for predicting intents.  
 - `vectorizer.pkl` → Saved TF-IDF vectorizer for transforming text inputs.  
-- `label_encoder.pkl` → Label encoder mapping tags to numeric labels.  
-
----
-
-## 2. Source Code
-**src/** *(optional, if you want to separate scripts from data)*  
-
-- `chatbot_gui.py` → Tkinter-based graphical interface for interactive chatting.  
-- `chatbot_console.py` → Console-based chatbot interface.  
-- `train_chatbot.py` → Script to train the model from scratch using `intents.json`.  
+- `label_encoder.pkl` → Label encoder mapping tags to numeric labels. 
 
 ---
 
