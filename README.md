@@ -114,6 +114,8 @@ Contains datasets and scripts related to preprocessing and model training.
 git clone https://github.com/yourusername/Supervised-Ted-Chatbot.git
 cd Supervised-Ted-Chatbot
 
+  ```
+
 2. Create a virtual environment (optional but recommended):
 
 ```bash
@@ -121,11 +123,14 @@ python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 
+  ```
+
 3. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 
+  ```
 4. Ensure the trained model (chatbot_model.h5), vectorizer (vectorizer.pkl), and encoder (label_encoder.pkl) are in the data/ folder.
 
   ```
