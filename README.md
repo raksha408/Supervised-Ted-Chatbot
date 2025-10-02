@@ -225,7 +225,7 @@ The supervised Ted! Chatbot effectively identifies user intents and generates ap
 
 ---
 
-## Future Work##
+## Future Work
 
 - Introduce contextual understanding for multi-turn conversations.  
 - Integrate voice input and output for a more natural conversational interface.  
