@@ -133,7 +133,7 @@ pip install -r requirements.txt
   ```
 4. Ensure the trained model (chatbot_model.h5), vectorizer (vectorizer.pkl), and encoder (label_encoder.pkl) are in the data/ folder.
 
-  ```
+  
 
 ## Usage ##
 
@@ -163,7 +163,6 @@ Bot: Starting a business requires careful planning and market research...
 You: bye
 Bot: Goodbye!
 
-  ```
 ## 2. GUI Interface (Tkinter) ##
 
 Run the graphical interface using:
