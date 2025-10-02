@@ -144,11 +144,15 @@ Run the chatbot directly in the terminal:
 ```bash
 python app.py
 
+  ```
+
 - **Type your message and press Enter**  
 
 - **Chatbot responds based on the trained model**  
 
 - **Commands to end the conversation:** `bye`, `quit`, `exit`
+
+  ```
 
 **Example Interaction:**
 
