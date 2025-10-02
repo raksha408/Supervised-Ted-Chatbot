@@ -46,7 +46,7 @@ This project can serve as a foundation for customer support automation, personal
 
 ---
 
-# Folder Structure - Chatbot Project
+# Folder Structure 
 
 **Supervised-Ted-Chatbot/**  
 Main project directory containing all code, data, models, and results.
