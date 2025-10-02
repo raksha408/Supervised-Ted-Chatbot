@@ -84,7 +84,7 @@ Contains sample intent.json dataset.
 - Understands and classifies user intents accurately  
 - Provides dynamic, context-aware responses  
 - Handles class imbalance with random oversampling  
-- Offers both **console-based** and **GUI-based** chat interfaces  
+- Offers  **GUI-based** chat interfaces  
 - Easy to extend with new intents and responses  
 
 ---
@@ -129,12 +129,11 @@ pip install -r requirements.txt
 4. Ensure the trained model (chatbot_model.h5), vectorizer (vectorizer.pkl), and encoder (label_encoder.pkl) are in the data/ folder.
 
   
-
 ## Usage ##
 
-### 1. Console Interface
+### 1.  GUI Interface (Tkinter)
 
-Run the chatbot directly in the terminal:
+Run the chatbot :
 
 ```bash
 python app.py
@@ -157,14 +156,7 @@ You: bye
 Bot: Goodbye!
 
 ```
-## 2. GUI Interface (Tkinter) ##
 
-Run the graphical interface using:
-
-```bash
-python chatbot_gui.py
-
-  ```
 ## Training Details ##
 
 The chatbot model is trained on a supervised dataset (`intents.json`) containing user intents, sample patterns, and corresponding responses. The training process includes:
