@@ -62,7 +62,7 @@ After training, the chatbot could correctly predict user intent and generate app
 
 ---
 
-## 🧠 What I Learned
+##  What I Learned
 
 Through this project, I learned:
 
